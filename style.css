@@ -23,11 +23,11 @@ body {
 
 .button {
 	border: 5px solid #383838;
-    color: orange;
+    color: red;
     padding: 20px 50px;
     font-size: 5em;
     text-decoration: none;
-    background-color: yellow;
+    background-color: black;
     box-shadow: 15px 15px 80px #555;
 }
   a.button:hover {
