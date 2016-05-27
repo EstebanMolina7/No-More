@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 //here we hide all the building falling pictures using .hide();
-$(#"building fallen").hide
+$("#buildingfallen").hide;
 var points=0;
 $(document).keydown(function(e) {
     switch (e.which) {
@@ -30,7 +30,7 @@ $(document).keydown(function(e) {
 })//this is where the arrow key function ends
 
 if (points==1) {
-	$(#"building fallen").show
+	$(#"building fallen").show;
 }else if(){
 
 }else if(){
