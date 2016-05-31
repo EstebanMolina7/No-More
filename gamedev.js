@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 //here we hide all the building falling pictures using .hide();
-$("#buildingfallen").hide;
+$("#buildingfallen").hide();
 var points=0;
 $(document).keydown(function(e) {
     switch (e.which) {
@@ -8,7 +8,8 @@ $(document).keydown(function(e) {
         $("#man").stop().animate({
             left: '-=75'
         }); //left arrow key
-        points=points+1;
+        points++;
+        "background-image","url(http://i.telegraph.co.uk/multimedia/archive/01432/china_1432267c.jpg)"); 
         break;
     case 38:
         $("#man").stop().animate({
@@ -30,11 +31,7 @@ $(document).keydown(function(e) {
 })//this is where the arrow key function ends
 
 if (points==1) {
-	$(#"building fallen").show;
-}else if(){
-
-}else if(){
-
+	$("#buildingfallen").show();
 }
 
 else{
