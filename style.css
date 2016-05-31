@@ -21,6 +21,10 @@ body {
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
 }
 
+
+
+
+
 .button {
 	border: 5px solid #383838;
     color: red;
@@ -42,9 +46,19 @@ body {
 #exploreBody {
 	background-image: url("http://flamesnation.ca/uploads/Image/91%20Building%20Falling%20Over.jpg");
 	background-position: bottom center;
+}
 
    
+#lol  {
+    background-image: url("http://i.telegraph.co.uk/multimedia/archive/01432/china_1432267c.jpg");
+    width: 1400px;
+    height: 1000px;
 }
+
+
+
+    
+
 #man{
 
 position: absolute;
@@ -53,3 +67,6 @@ left: 200px;
 }
 
 }
+
+
+

@@ -1,6 +1,7 @@
 $( document ).ready(function() {
 //here we hide all the building falling pictures using .hide();
-$("#buildingfallen").hide();
+$("#lol").hide();
+$("#buildingfalling").hide();
 var points=0;
 $(document).keydown(function(e) {
     switch (e.which) {
@@ -9,10 +10,10 @@ $(document).keydown(function(e) {
             left: '-=75'
         }); //left arrow key
         points++;
-        
-        $("#buildingfallen").show();
-        
-        break;
+  		$("#lol").show();
+        $("#buildingfalling").hide();
+		break;
+
     case 38:
         $("#man").stop().animate({
             top: '-=75'
@@ -34,6 +35,7 @@ $(document).keydown(function(e) {
 
 if (points==1) {
 	$("#buildingfallen").show();
+	$("#buildingfalling").hide();
 }
 
 else{
