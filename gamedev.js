@@ -9,7 +9,9 @@ $(document).keydown(function(e) {
             left: '-=75'
         }); //left arrow key
         points++;
-        "background-image","url(http://i.telegraph.co.uk/multimedia/archive/01432/china_1432267c.jpg)"); 
+        
+        $("#buildingfallen").show();
+        
         break;
     case 38:
         $("#man").stop().animate({
