@@ -51,9 +51,9 @@ body {
    
 #lol  {
     background-image: url("http://i.telegraph.co.uk/multimedia/archive/01432/china_1432267c.jpg");
-    width: 900px;
-    height: 900px; 
-    background-size: 1000px 1000px;
+    width: 1400px;
+    height: 1400px; 
+    background-size: 1600px 1600px;
     background-repeat: no-repeat;
 }
 
@@ -64,7 +64,7 @@ body {
 #man{
 
 position: absolute;
-top: 500px;
+top: 900px;
 left: 200px; 
 }
 
