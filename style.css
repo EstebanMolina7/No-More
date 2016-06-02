@@ -51,8 +51,10 @@ body {
    
 #lol  {
     background-image: url("http://i.telegraph.co.uk/multimedia/archive/01432/china_1432267c.jpg");
-    width: 1400px;
-    height: 1000px;
+    width: 900px;
+    height: 900px; 
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
 }
 
 
