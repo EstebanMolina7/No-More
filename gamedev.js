@@ -13,6 +13,7 @@ $(document).keydown(function(e) {
   		$("#exploreBody").css("background-image", "url(http://i.telegraph.co.uk/multimedia/archive/01432/china_1432267c.jpg)")
          
   		alert("Correct! You have chosen the right side, can you get past the next building?")
+        window.location.href="file:///Users/s210436/Google%20Drive/HKIS/7th%20Grade/Game%20design%20and%20coding/No-More/index.html";
 
 		break;
 
