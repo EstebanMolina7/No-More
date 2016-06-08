@@ -46,7 +46,7 @@ if (points==1) {
 
 else{
 	//this can be empty
-}cc
+}
 
 
 
